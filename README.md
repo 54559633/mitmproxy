@@ -19,6 +19,16 @@ interface for HTTP/1, HTTP/2, and WebSockets.
 The installation instructions are [here](https://docs.mitmproxy.org/stable/overview-installation).
 If you want to install from source, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+### Windows quick start (mitmweb UI)
+
+If you want a point-and-click experience on Windows, use the packaged mitmweb build:
+
+1. Download the latest Windows release ZIP from [https://mitmproxy.org/downloads](https://mitmproxy.org/downloads) and extract it.
+2. Double-click `mitmweb.exe` from the extracted folder. It will start the proxy on port 8080 and open the browser UI automatically.
+3. When you close the mitmweb window, the proxy shuts down—no extra services are left running.
+
+This works on modern Windows versions (10/11) without needing Python preinstalled.
+
 ## Documentation & Help
 
 General information, tutorials, and precompiled binaries can be found on the mitmproxy website.
