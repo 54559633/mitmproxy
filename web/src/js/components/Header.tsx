@@ -43,8 +43,8 @@ export default function Header() {
     }
 
     return (
-        <header>
-            <nav className="nav-tabs nav-tabs-lg">
+        <header className="app-header">
+            <nav className="nav-tabs nav-tabs-lg app-nav-tabs">
                 <FileMenu />
                 {entries.map((Entry) => (
                     <a
@@ -60,7 +60,7 @@ export default function Header() {
                     <ConnectionIndicator />
                 </HideInStatic>
             </nav>
-            <div>
+            <div className="app-header__menu">
                 <ActiveMenu />
             </div>
         </header>
